@@ -27,6 +27,7 @@ Visual Representation:
  3 | X | 5 
 -----------
  6 | 7 | O 
+-----------
 
 
 Small, manageable branching factor.
@@ -44,11 +45,17 @@ Result: Without optimization, the recursion depth is too great. The branching fa
 Visual Representation:
 
 | 00 | 01 | 02 | 03 | 04 | 05 | 06 |
+-------------------------------------
 |    |    |    |    |    |    |    |
+-------------------------------------
 |    |    |    |    |    |    |    |
+-------------------------------------
 |    |    |    | X  |    |    |    |
+-------------------------------------
 |    |    | O  | X  |    |    |    |
+-------------------------------------
 |    | O  | X  | O  |    |    |    |
+-------------------------------------
 
 
 Massive branching factor. Even a few moves deep creates millions of possibilities.
