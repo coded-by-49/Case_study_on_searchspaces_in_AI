@@ -57,7 +57,7 @@ Visual Representation:
 | 31 | O  | X  | O  | 32 | 33 | 34 |
 -------------------------------------
 | 35 | 36 | 37 | 38 | 39 | 40 | 41 |
-
+-------------------------------------
 
 
 Massive branching factor. Even a few moves deep creates millions of possibilities.
